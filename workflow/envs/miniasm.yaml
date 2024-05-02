@@ -2,7 +2,11 @@ channels:
   - conda-forge
   - bioconda
 dependencies:
-  - minimap2
-  - miniasm
-  - minipolish
+  - bwa
   - k8
+  - miniasm
+  - minimap2
+  - minipolish
+  - polypolish
+  - racon
+  
