@@ -1,5 +1,7 @@
 # lordec-miniasm
 
+# Description
+
 # Usage
 
 ## Step 1 - install Snakemake and Snakedeploy
