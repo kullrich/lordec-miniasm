@@ -1,0 +1,30 @@
+$schema: "http://json-schema.org/draft-07/schema#"
+
+description: snakemake configuration file
+
+type: object
+
+definitions:
+  evententry:
+    type: object
+    properties:
+      varlociraptor:
+        type: array
+        items: 
+          type: string
+      filter:
+        type: string
+      local:
+        type: boolean
+      threshold:
+        type: boolean
+
+
+properties:
+  samples:
+    type: string
+  units:
+    type: string
+required:
+  - samples
+  - units
