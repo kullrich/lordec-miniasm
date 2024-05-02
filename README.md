@@ -84,3 +84,11 @@ Snakemake will automatically detect the main Snakefile in the workflow subfolder
 For further options, e.g. for cluster and cloud execution, see the docs. 
 
 ## Step 5 - generate report
+
+After finalizing your data analysis, you can automatically generate an interactive visual HTML report for inspection of results together with parameters and code inside of the browser via
+
+```
+snakemake --report report.zip
+```
+
+The resulting report.zip file can be passed on to collaborators, provided as a supplementary file in publications, or uploaded to a service like Zenodo in order to obtain a citable DOI. 
